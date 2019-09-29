@@ -1,0 +1,10 @@
+{application,'DOSPRJ',
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"DOSPRJ"},
+              {modules,['Elixir.DOSPRJ.Application',
+                        'Elixir.DOSPRJ.TaskManager',
+                        'Elixir.Mix.Tasks.PerfectSquare']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {env,[{routing_table,[]}]},
+              {mod,{'Elixir.DOSPRJ.Application',[]}}]}.
